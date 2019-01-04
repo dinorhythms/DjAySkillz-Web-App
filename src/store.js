@@ -3,18 +3,9 @@ import firebase from 'firebase';
 import 'firebase/firestore';
 import { reactReduxFirebase, firebaseReducer } from 'react-redux-firebase';
 import { reduxFirestore, firestoreReducer } from 'redux-firestore';
+import firebaseConfig from './firebaseConfig';
 // Reducer
 // @todo
-
-const firebaseConfig = {
-    apiKey: "AIzaSyApCinal5-75Zw4qzhLefatgxmbbTj2XOs",
-    authDomain: "djayskillz-e0e3b.firebaseapp.com",
-    databaseURL: "https://djayskillz-e0e3b.firebaseio.com",
-    projectId: "djayskillz-e0e3b",
-    storageBucket: "djayskillz-e0e3b.appspot.com",
-    messagingSenderId: "375811577148"
-
-}
 
 const rrfConfig = {
     userProfile: 'users',
