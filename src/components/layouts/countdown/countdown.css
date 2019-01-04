@@ -1,0 +1,27 @@
+.Countdown {
+    margin: 10px auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Countdown-col {
+    display: inline-block;
+}
+
+.Countdown-col-element {
+    display: inline-block;
+    margin: 0 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.Countdown-col-element strong {
+    font-size: 50px;
+}
